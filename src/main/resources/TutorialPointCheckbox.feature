@@ -15,6 +15,7 @@ Feature: TutorialPointCheckbox
     Given Uzivatel se nachazi na strance s checkboxy
     When Uzivatel klikne na checkbox s id "<idCheckboxu>"
     Then Nadrazeny checkbox s id "<idCheckboxu>" je zaskrtnut
+
     Examples:
       | idCheckboxu |
       | c_bs_1      |
